@@ -39,7 +39,7 @@
 <nav class="navbar navbar-light bg-light px-3">
   <a class="navbar-brand d-flex align-items-center" href="#">
     <img src="logo.png" alt="Logo" class="logo me-2">
-    <strong>Profile Frame Builder</strong>
+    <strong>BSU Profile Photo Frame </strong>
   </a>
 
 </nav>
@@ -108,7 +108,7 @@ document.getElementById('upload').addEventListener('change', function(e) {
 // Download final image
 document.getElementById('downloadBtn').addEventListener('click', function() {
   const link = document.createElement('a');
-  link.download = 'profile_with_frame.png';
+  link.download = 'bsu-profile-photo-frame.png';
   link.href = canvas.toDataURL('image/png');
   link.click();
 });
